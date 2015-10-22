@@ -55,7 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1.csproj">
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
       <Project>{039AFD82-4F1B-45B7-BEEF-0B56FA18660E}</Project>
       <Name>ClassLibrary1</Name>
     </ProjectReference>
