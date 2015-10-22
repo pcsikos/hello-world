@@ -4,7 +4,7 @@ install:
     - nuget restore
 
 build:
-  project: YOURPROJECT.sln
+  project: ClassLibrary1.sln
   verbosity: detailed
   
 environment:
