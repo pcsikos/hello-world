@@ -12,5 +12,5 @@ environment:
        secure: Ip/x36baZwr+2kgckjZO5g4PPGoqzov2U+DULR9pJf7xwFzxPuVnVw32YrtNp5gA
 
 after_test: 
-  packages\OpenCover.4.6.166\tools\OpenCover.Console.exe -register:user -filter:"+[*]*" -target:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\MSTest.exe" -targetargs:"/testcontainer:ClassLibrary1Tests/bin/debug/ClassLibrary1Tests.dll" -output:coverage.xml
-  packages\coveralls.net.0.6.0\tools\csmacnz.Coveralls.exe --opencover coverage.xml
+  - packages\OpenCover.4.6.166\tools\OpenCover.Console.exe -register:user -filter:"+[*]*" -target:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\MSTest.exe" -targetargs:"/testcontainer:ClassLibrary1Tests/bin/debug/ClassLibrary1Tests.dll" -output:coverage.xml
+  - packages\coveralls.net.0.6.0\tools\csmacnz.Coveralls.exe --opencover coverage.xml
