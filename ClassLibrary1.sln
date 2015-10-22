@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1Tests", "ClassLibrary1Tests\ClassLibrary1Tests.csproj", "{8C41A8C0-070E-44DA-B03E-5E51B0A03477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1.CI", "..\ClassLibrary1.CI\ClassLibrary1.CI.csproj", "{931EF8C2-9564-4BEF-AA6C-6EAF0DA8CDFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1.CI", "ClassLibrary1.CI\ClassLibrary1.CI.csproj", "{931EF8C2-9564-4BEF-AA6C-6EAF0DA8CDFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
